@@ -35,10 +35,12 @@ export default function login() {
           className='my-2 py-2 px-2 bg-transparent border-2 rounded-md'/>
 
           <div className='flex items-center mx-auto py-4'>
-          <Link href={'/users/login'}>
-            <p className='px-6 py-1 mx-2 border-2 rounded-lg drop-shadow-md bg-white'>Login</p>
-          </Link>
           <button className='px-4 py-1 mx-2 border-2 rounded-lg bg-blue-500 text-white drop-shadow-md'>Register</button>
+          </div>
+          <div className='flex'>
+          <Link href={'/users/login'}>
+            <p className='text-gray-600 text-sm flex'>Already have an account?  <p className='text-indigo-500'> Login</p> </p>
+          </Link>
           </div>
         </form>
       </div>
