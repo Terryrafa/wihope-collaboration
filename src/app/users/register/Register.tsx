@@ -36,9 +36,9 @@ export default function login() {
 
           <div className='flex items-center mx-auto py-4'>
           <Link href={'/users/login'}>
-            <p className='px-6 py-1 mx-2 border-2 rounded-md drop-shadow-md bg-white'>Login</p>
+            <p className='px-6 py-1 mx-2 border-2 rounded-lg drop-shadow-md bg-white'>Login</p>
           </Link>
-          <button className='px-4 py-1 mx-2 border-2 rounded-md bg-blue-500 text-white drop-shadow-md'>Register</button>
+          <button className='px-4 py-1 mx-2 border-2 rounded-lg bg-blue-500 text-white drop-shadow-md'>Register</button>
           </div>
         </form>
       </div>
