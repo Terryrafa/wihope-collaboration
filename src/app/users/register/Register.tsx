@@ -12,7 +12,7 @@ export default function login() {
        <Image src={bgmain} alt={'bg'}
        layout='fill'
        objectFit='cover'/>
-    <div className='flex flex-col max-w-screen-lg mx-auto h-full pt-28 z-20'>
+    <div className='flex flex-col max-w-scre mx-auto h-full pt-28 z-20'>
           <div className='flex flex-col max-w-screen-lg mx-auto p-12 rounded-lg py-14 bg-white drop-shadow-lg z-10'>
             <div className='pb-6 mx-auto '>
               <p className='text-3xl font-bold items-center justify-between '>Register</p>
@@ -57,7 +57,7 @@ export default function login() {
           
         <div className='flex'>
           <Link href={'/users/login'}>
-            <p className='text-gray-600 text-sm flex'>Already have an account?  <p className='text-indigo-500'> Login</p> </p>
+          <div className='text-gray-600 text-sm flex'>Already have an account?  <p className='text-indigo-500'> Login</p></div>
           </Link>
         </div>
         

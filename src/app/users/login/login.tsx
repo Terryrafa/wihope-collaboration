@@ -6,9 +6,9 @@ import Link from 'next/link'
 export default function login() {
   return (
     <div id='login' className='w-full h-screen text-black'>
-       {/* <Image src={bgmain} alt={'bg'} */}
-       {/* layout='fill' */}
-       {/* objectFit='cover'/> */}
+       <Image src={bgmain} alt={'bg'}
+        layout='fill'
+        objectFit='cover'/>
     <div className='flex flex-col max-w-screen-lg mx-auto h-full pt-28 z-20 drop-shadow-xxl'>
           <div className='flex flex-col max-w-screen-lg mx-auto p-12 rounded-md py-14 bg-white drop-shadow-lg  z-10'>
             <div className='pb-6 mx-auto '>
@@ -41,7 +41,7 @@ export default function login() {
           </div>
           <div>
           <Link href={'/users/register'}>
-          <p className='text-gray-900 text-sm flex'>{`if you don't have an account`} <p className='text-indigo-500 px-2'> Register </p> </p>
+          <div className='text-gray-900 text-sm flex'>{`if you don't have an account`} <p className='text-indigo-500 px-2'> Register </p> </div>
           </Link>
           </div>
         </form>
